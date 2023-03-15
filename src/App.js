@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="app">
       <div>
-        <input
+        <input className="input"
           type="text"
           value={newTodo}
           onChange={(e) => setNewTodo(e.target.value)}
